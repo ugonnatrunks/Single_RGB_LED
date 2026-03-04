@@ -22,7 +22,7 @@ This project implements a thread-safe, real-time pipeline on the **Nordic nRF528
 
 The goal of this project was to create a responsive system where analog sensor data (like a potentiometer) directly controls digital actuators (like LEDs) without blocking the CPU. By separating the sensing and actuation into two distinct threads, the system remains stable and responsive even at high sample rates. 
 
-I leveraged the nRF52832's 12-bit SAADC to obtain high-resolution input ($0$ to $4095$). To ensure a smooth user experience, I implemented a custom deadzone filter and a mutex-locking mechanism that allows the peripheral thread to update sensor data only when a significant physical change is detected.
+I leveraged the nRF52832's 12-bit SAADC to obtain high-resolution input (**0 to 4095**). To ensure a smooth user experience, I implemented a custom deadzone filter and a mutex-locking mechanism that allows the peripheral thread to update sensor data only when a significant physical change is detected.
 
 
 
