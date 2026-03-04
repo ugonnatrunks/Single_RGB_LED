@@ -1,6 +1,6 @@
 # nRF52832 Multi-Channel ADC to PWM Controller
 
-This project implements a thread-safe, real-time pipeline on the **Nordic nRF52832** SoC using **Zephyr RTOS**. It samples multiple analog inputs via the SAADC peripheral and maps those values to PWM-driven outputs with software-based signal conditioning.
+This project implements a thread-safe, real-time pipeline on the Nordic nRF52832 SoC using Zephyr RTOS. It samples multiple analog inputs via the SAADC peripheral and maps those values to PWM-driven outputs with software-based signal conditioning.
 
 ## ✨ Technologies
 
