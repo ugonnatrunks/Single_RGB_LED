@@ -43,6 +43,9 @@ Sent: Channel 1 Raw = 2050, Channel 2 Raw = 1012, Channel 4 Raw = 15
 Actuated: Channel 1 Raw = 2050, Channel 2 Raw = 1012, Channel 4 Raw = 15
 ```
 ## 📺 Video Demo
-[<img src="https://img.youtube.com/vi/JlQgS1oauD8/maxresdefault.jpg" width="600" style="border-radius:10px;">](https://youtu.be/JlQgS1oauD8)
+
+
+https://github.com/user-attachments/assets/8b3ed952-ab9a-4a43-8b6d-0908eafeb431
+
 
 *Demonstration of Thread-Safe Peripheral Interfacing in Zephyr RTOS.*
