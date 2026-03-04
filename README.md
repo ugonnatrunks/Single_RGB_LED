@@ -12,11 +12,11 @@ This project implements a thread-safe, real-time pipeline on the **Nordic nRF528
 
 ## 🚀 Features
 
-* **Multithreaded Architecture**: Features a high-priority producer thread (`pot_thread_id`) for sampling and a main consumer thread for actuation.
-* **Thread-Safe IPC**: Shared data is protected by a **Zephyr Mutex** (`my_mutex`) to prevent race conditions.
-* **Signal Conditioning**: Implements a `DEADZONE_THRESHOLD` (25 units) to filter analog noise and prevent PWM jitter.
-* **Boundary Clamping**: Soft-clamping logic ensures stable "Full-Off" and "Full-On" states at the voltage rail limits.
-* **Real-time Monitoring**: Synchronized console output via `printk` for live debugging of raw and filtered values.
+* **Multithreaded Architecture**: Features a high-priority producer thread for sampling and a main consumer thread for actuation.
+* **Thread-Safe IPC**: Shared data is protected by a Zephyr Mutex to prevent race conditions.
+* **Signal Conditioning**: Implements a (25 units) to filter analog noise and prevent PWM jitter.
+* **Boundary Clamping**: Soft-clamping logic ensures stable Full-Off and Full-On states at the voltage rail limits.
+* **Real-time Monitoring**: Synchronized console output via for live debugging of raw and filtered values.
 
 ## 📍 The Process
 
